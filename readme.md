@@ -24,7 +24,7 @@ streamlit run inference.py
 ├── cnn_model.pth      # Trained model file
 ├── requirements.txt   # Required Python libraries
 └── README.md          # This file 
-
+```
 ## Output Samples
 
 Here are some sample outputs from the model at inference:
