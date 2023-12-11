@@ -11,18 +11,23 @@ This repository contains a machine learning project focused on the binary classi
 ## Installation
 To run this project, first clone the repository:
 ```bash
-git clone https://github.com/[your-username]/[your-repo-name].git
-cd [your-repo-name]
+git clone https://github.com/Ariq154404/manufacturing_defect_classification
+cd manufacturing_defect_classification
 python3 -m venv myenv
 source myenv/bin/activate
 streamlit run inference.py
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run inference.py
 .
-├── cnn_model.py       # CNN model definition
 ├── experiment.ipynb    #Experimentational script
 ├── inference.py       # Inference code for model evaluation
 ├── cnn_model.pth      # Trained model file
 ├── requirements.txt   # Required Python libraries
-└── README.md          # This file
+└── README.md          # This file 
 
+## Output Samples
+
+Here are some sample outputs from the model at inference:
+
+![Defective Casting Sample](https://github.com/Ariq154404/manufacturing_defect_classification/out2.png)
+![Non-Defective Casting Sample](https://github.com/Ariq154404/manufacturing_defect_classification/out1.png)
