@@ -1,4 +1,4 @@
-# Casting Product Classification
+# Casting Product Manufacturing Defect Classification
 
 ## Project Overview
 This repository contains a machine learning project focused on the binary classification of casting products into defective and non-defective categories. The project is based on a [real-life industrial dataset from Kaggle](https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of-casting-product/data), and employs Convolutional Neural Networks (CNN) using PyTorch.
@@ -29,5 +29,5 @@ streamlit run inference.py
 
 Here are some sample outputs from the model at inference:
 
-![Defective Casting Sample](https://github.com/Ariq154404/manufacturing_defect_classification/out2.png)
-![Non-Defective Casting Sample](https://github.com/Ariq154404/manufacturing_defect_classification/out1.png)
+![Defective Casting Sample](https://github.com/Ariq154404/manufacturing_defect_classification/blob/main/out2.png)
+![Non-Defective Casting Sample](https://github.com/Ariq154404/manufacturing_defect_classification/blob/main/out1.png)
